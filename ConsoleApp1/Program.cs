@@ -15,6 +15,7 @@ namespace ConsoleApp1
                 sum += b[a];
             }
             Console.WriteLine("The average of the given array is: {0}", sum/b.Length);
+            Console.WriteLine("Dzialaj");
         
         }
     }
