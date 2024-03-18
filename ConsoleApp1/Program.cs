@@ -7,8 +7,7 @@ namespace ConsoleApp1
         static void Main(string[] args){
            
             int[] a = [-12, 6, -99, 2, 14, -4, 2];
-            //countAv(a);
-            writeMxVArray(a);
+            countAv(a);
         }  
         static void countAv(int[] b){
             float sum = 0;
@@ -16,16 +15,8 @@ namespace ConsoleApp1
                 sum += b[a];
             }
             Console.WriteLine("The average of the given array is: {0}", sum/b.Length);
-        }
-        static void writeMxVArray(int[] d){
-            int max = d[0];
- 
-            for(int a = 0; a < d.Length; a++){
-                if (max <= d[a])
-                    max = d[a];
-            }
- 
-            Console.WriteLine(max);
+            Console.WriteLine("Dzialaj");
+        
         }
     }
 }
